@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>LKS LABA 4</title>
+  <link rel="stylesheet" href="style/style.css" />
+  
+</head>
+
+<body>
+
+  <div class="button">
+    <div class="button1"><a href="#" onClick="document.getElementById('one').style.display =  'block'; document.getElementById('two').style.display =  'none'; document.getElementById('three').style.display =  'none'">Часть 1</a></div>
+    <div class="button2"><a href="#" onClick="document.getElementById('two').style.display =  'block'; document.getElementById('one').style.display =  'none'; document.getElementById('three').style.display =  'none'">Часть 2</a></div>
+    <div class="button3"><a href="#" onClick="document.getElementById('three').style.display =  'block'; document.getElementById('one').style.display =  'none'; document.getElementById('two').style.display =  'none'">Часть 3</a></div>
+    <div class="button4"><a href="#" onClick="document.getElementById('three').style.display =  'block'; document.getElementById('one').style.display =  'none'; document.getElementById('two').style.display =  'none'">Часть 4</a></div>
+  </div>
+
+  <div id="one" style="display:none">
+    <div class="task1">
+
+      <div class="show">
+        <div class="textField" id="list">
+        </div>
+      </div>
+
+      <div class="insert">
+        <label class="radioText"><input type="radio" name="positionInList" id="addTop" class="radioButton"> Вверх списка</label>
+        <br/>
+        <label class="radioText"><input type="radio" name="positionInList" id="addBottom" class="radioButton"> Вниз списка</label>
+        <br/>
+        <input type="text" id="typedText" placeholder="Ведите текст...">
+        <br/>
+        <p class="Colors">Выбери цвет фона : </p>
+        <input type="color" id="colorText" value="#04fa11">
+        <br/>
+        <button onclick="getText()" class="enterBlock">Добавить</button>
+        <br/>
+        <button onclick="alertText()" class="statistic">Статистика</button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="two" style="display:none">
+    <div class="tassk2">
+
+      <div class="show2">
+        <div class="field" id="task2"></div>
+      </div>
+
+      <div class="insert2">
+        <button onclick="addRectangle()" class="addRect">Добавить</button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="three" style="display:none">
+    <div class="tassk3">
+
+      <div class="show3">
+        <div id="field3"></div>
+      </div>
+
+      <div class="insert3">
+          <button onclick="addBlock() " class="addRect ">Добавить</button>
+      </div>
+
+    </div>
+  </div>
+
+    <script src="script/task1.js "></script>
+    <script src="script/task2.js "></script>
+    <script src="script/task3.js "></script>
+    <script src="script/task4.js "></script>
+
+</body>
+</html>

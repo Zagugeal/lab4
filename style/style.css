@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+/*
+            BUTTON
+*/
+
+.button {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: blue;
+}
+
+.button div {
+  padding: 20px;
+  margin: auto;
+  background-color: yellow;
+  
+}
+
+.button a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button a:visited {
+  color: rgb(211, 3, 3);
+}
+
+/*
+            TASK1
+*/
+
+.task1 {
+  display: flex;
+}
+
+.show {
+  height: auto;
+  width: 70%;
+  background-color: rgb(81, 38, 197);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#list div {
+  cursor: pointer;
+  border-radius: 7px;
+  padding-left: 4px;
+  font-size: 30px;
+  margin-top: 1px;
+  width: 100%;
+}
+
+.textField {
+  padding: 20px;
+  border-radius: 8px;
+  height: 418px;
+  width: 80%;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.insert {
+  color: #ffc832;
+  height: auto;
+  width: 30%;
+  background-color: rgb(81, 38, 197);
+  padding-top: 8%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+}
+
+.statistic {
+  margin-top: 20%;
+  font-size: 20px;
+  height: 40px;
+  width: 60%;
+  border: groove ;
+  background-color: #ffc832;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.statistic:hover {
+  opacity: 0.8;
+}
+
+#colorText {
+  margin-top: 10%;
+}
+
+.enterBlock {
+  margin-top: 5%;
+  font-size: 20px;
+  height: 40px;
+  width: 60%;
+  border: none;
+  background-color: #ffc832;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.enterBlock:hover {
+  opacity: 0.8;
+}
+
+.choosColor {
+  margin-top: 5%;
+}
+
+#colorText {
+  border: none;
+  margin-top: 2%;
+  cursor: pointer;
+  width: 40%;
+  height: 30px;
+  background-color: #ffc832;
+  border-radius: 2px;
+}
+
+#typedText {
+  margin-top: 5%;
+  font-size: 17px;
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+}
+
+.radioButton {
+  
+  cursor: pointer;
+}
+.radioText{
+  display: inline-block;
+  color: red;
+}
+
+/*
+            TASK2
+*/
+
+.field {
+  position: relative;
+}
+
+.field div {
+  position: absolute;
+  width: 100%;
+}
+
+.field {
+  margin: auto;
+  background-color: rgb(223, 220, 223);
+}
+
+#highlight {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  outline: 1px dashed rgb(211, 3, 3);
+}
+
+#blocklight {
+  outline: 3px dashed rgb(211, 3, 3);
+}
+
+.tassk2 {
+  display: flex;
+}
+
+.show2 {
+  height: auto;
+  width: 70%;
+  background-color: rgb(81, 38, 197);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#task2 {
+  padding: 20px;
+  border-radius: 8px;
+  height: 418px;
+  width: 80%;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.insert2 {
+  color: #ffc832;
+  height: auto;
+  width: 30%;
+  background-color: rgb(81, 38, 197);
+  padding-top: 8%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+}
+
+.addRect {
+  font-size: 20px;
+  height: 40px;
+  width: 60%;
+  border: none;
+  background-color: #ffc832;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.addRect:hover {
+  opacity: 2;
+}
+
+/*
+            TASK3
+*/
+
+#field3 {
+  background-color: bisque;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+}
+
+#field3 div {
+  position: absolute;
+}
+
+.draggable {
+  cursor: pointer;
+}
+
+.tassk3 {
+  display: flex;
+}
+
+.show3 {
+  height: auto;
+  width: 70%;
+  background-color: rgb(81, 38, 197);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#field3 {
+  padding: 20px;
+  border-radius: 8px;
+  height: 418px;
+  width: 80%;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.insert3 {
+  color: #ffc832;
+  height: auto;
+  width: 30%;
+  background-color: rgb(81, 38, 197);
+  padding-top: 8%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+}
+
+/*
+            TASK4
+*/
+
+#field4 {
+  background-color: bisque;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+}
+
+#field4 div {
+  position: absolute;
+}
+
+.draggable {
+  cursor: pointer;
+}
+
+.tassk4 {
+  display: flex;
+}
+
+.show4 {
+  height: auto;
+  width: 70%;
+  background-color: rgb(81, 38, 197);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#field4 {
+  padding: 20px;
+  border-radius: 8px;
+  height: 418px;
+  width: 80%;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.insert4 {
+  color: #ffc832;
+  height: auto;
+  width: 30%;
+  background-color: rgb(81, 38, 197);
+  padding-top: 8%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+}
